@@ -31,6 +31,6 @@ with st.echo():
     options.add_argument("--headless")
 
     driver = get_driver()
-    driver.get("http://example.com")
+    driver.get("https://www.ulta.com/shop/body-care/suncare/sunscreen")
 
     st.code(driver.page_source)
